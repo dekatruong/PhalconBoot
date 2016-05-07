@@ -1,0 +1,17 @@
+{
+    "name": "dklib/phalcon-boot",
+    "type": "library",
+    "description": "PhalconBoot - boot Phalcon in a Class",
+    "keywords": [ "bootstrap", "phalcon", "phalcon boot"],
+    "authors": [
+        {
+            "name": "Deka",
+            "email": "dekatruong@gmail.com"
+        }
+    ],
+    "autoload": {  
+        "psr-4": {
+            "PhalconBoot\\": "src/PhalconBoot/"
+        }
+    }
+}
